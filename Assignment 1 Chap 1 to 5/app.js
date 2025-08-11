@@ -173,6 +173,70 @@
 // document.write(Celsius + "<sup>o</sup>C is " + FahrenheitFor + "<sup>o</sup>F <br>");
 // document.write(Fahrenheit + "<sup>o</sup>F is " + CelsiusFor + "<sup>o</sup>C ");
 
-
 // Q7
+// var Price_of_item_1 = 650;
+// var Price_of_item_2 = 100;
+// var Ordered_quantity_of_item_1 = 3;
+// var Ordered_quantity_of_item_2 = 7;
+// var Shipping_charges = 100;
+// var TotalCharges =
+//   Price_of_item_1 * Ordered_quantity_of_item_1 +
+//   Price_of_item_2 * Ordered_quantity_of_item_2 +
+//   Shipping_charges;
+// document.write(" <h3> Shopping Cart </h3>");
+// document.write("Price of item 1 is : " + Price_of_item_1 + "<br>");
+// document.write("Quantity of item 1 is : " + Ordered_quantity_of_item_1 + "<br>");
+// document.write("Price of item 2 is : " + Price_of_item_2 + "<br>");
+// document.write("Quantity of item 2 is : " + Ordered_quantity_of_item_2 + "<br>");
+// document.write("Shipping charges is : " + Shipping_charges + "<br>");
+// document.write("Total cost of your order  is : " + TotalCharges + "<br>");
+
+// Q8
+// TotalMArks = 980;
+// obtainedMarks = 804;
+// Percentage = (obtainedMarks/TotalMArks)*100;
+// document.write("Total Marks " + TotalMArks +"<br>");
+// document.write("Obtained Marks " + obtainedMarks + "<br>");
+// document.write("Percentage " + Percentage + "% <br>");
+
+// Q9
+// total_pkr = (10 * 104.80) + (25 * 28);
+// document.write("<h3> Currency in pkr</h3>")
+// document.write("Total Currency in PKR: "+ total_pkr);
+
+// Q10
+// var number =7
+// var calculation = (((number+5)*10)/2);
+// document.write(calculation);
+
+// Q11
+// var current_year = 2025;
+// var Birth_year = 2004;
+// document.write("<h3> Age Calculator</h3>");
+// document.write("Current year : " + current_year + "<br>");
+// document.write("Birth year : " + Birth_year + "<br>");
+// document.write("Your age is : " + (current_year - Birth_year) + "<br>");
+
+// Q12
+// var radius_of_a_circle = 20;
+// var pi = 3.142;
+// var Circumference_of_a_circle = (2*pi*radius_of_a_circle);
+// var Area_of_a_circle = (pi*(radius_of_a_circle*radius_of_a_circle));
+// document.write(" <h1>The Geometrizer </h1>");
+// document.write("Radius of a circle :" + radius_of_a_circle  + "<br>");
+// document.write("The circumference is :" + Circumference_of_a_circle  + "<br>");
+// document.write("The area is :" + Area_of_a_circle  + "<br>");
+
+// Q13
+// var favorite_snack = "Chocolate Chip"
+// var current_age = 15;
+// var maximum_age = 65;
+// var amount_of_snakes=3;
+// document.write("<h1>The Lifetime Supply Calculator </h1>");
+// document.write("favorite snack : " + favorite_snack + "<br>");
+// document.write("Current age : " + current_age + "<br>");
+// document.write("Estimated Maximum age : " + maximum_age + "<br>");
+// document.write("Amount of snakes per day : " + amount_of_snakes + "<br>");
+// document.write("You will need " +( (maximum_age-current_age)*amount_of_snakes) + " "+ favorite_snack+" to last you until the ripe old age of " + maximum_age + "<br>");
+
 
