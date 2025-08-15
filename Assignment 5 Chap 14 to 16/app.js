@@ -38,7 +38,6 @@
 // var studentScore = [480, 330, 230];
 // var totalMarks = 500;
 
-
 // for (let i = 0; i < studentName.length; i++) {
 //   var Percentage = (studentScore[i] / totalMarks) * 100;
 //   document.write("Score of " + studentName[i] +" is "+ studentScore[i] +". Percentage "+ Percentage + "% <br>");
@@ -46,4 +45,36 @@
 
 // Q9
 
+// var colorsArr = ["red", "yellow", "brown"];
+// document.write(colorsArr + "<br>");
+// // a
+// var start_add_colr = prompt("Enter color to add beginning");
+// colorsArr.unshift(start_add_colr);
+// document.write(colorsArr + "<br>");
+// // b
+// var end_add_colr = prompt("Enter color to add Ending");
+// colorsArr.push(end_add_colr + "<br>");
+// document.write(colorsArr + "<br>");
+// // c
+// var start_add_colr2 = prompt("Enter color to add beginning");
+// colorsArr.unshift(start_add_colr2);
+// document.write(colorsArr + "<br>");
+// // d
+// colorsArr.shift();
+// document.write(colorsArr + "<br>");
+// // e
+// colorsArr.pop();
+// document.write(colorsArr + "<br>");
+// // f
+// var index = +prompt("which index you like to add color");
+// var newcolor = prompt("which color you like to add that index");
+// colorsArr.splice(index, 0, newcolor);
+// document.write(colorsArr + "<br>");
 
+// // G
+// var index2 = +prompt("which index you like delt");
+// var COLORSdelt = prompt("how many colors you want to delet");
+// colorsArr.splice(index2, COLORSdelt);
+// document.write(colorsArr + "<br>");
+
+// Q10
