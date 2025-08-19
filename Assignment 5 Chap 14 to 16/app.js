@@ -78,3 +78,35 @@
 // document.write(colorsArr + "<br>");
 
 // Q10
+// var scores = [320, 230, 480, 120];
+// document.write("Scores of Students :" + scores + "<br>");
+
+// scores.sort(function (a, b) {
+//   return a - b;
+// });
+
+// document.write("Ordered Scores of Students :" + scores);
+
+// Q11
+
+// var cities =["Karachi", "Lahore", "Islamabad" , "Quetta", "Peshawar"];
+// document.write(cities + "<br>");
+// document.write(cities.slice(2,4));
+
+// Q12
+// var arr = ["This ", " is ", " my ", " cat"];
+// // arry
+// document.write(arr + "<br>");
+// //string
+// var result= arr.join("");
+// document.write(result);
+
+
+
+
+
+
+
+
+
+
