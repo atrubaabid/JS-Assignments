@@ -101,6 +101,35 @@
 // var result= arr.join("");
 // document.write(result);
 
+// Q13    FIFO
+// let arr = [];
+// arr.push("A");
+// arr.push("B");
+// arr.push("C");
+// document.write(arr + "<br>");
+// let first = arr.shift();
+// let second = arr.shift();
+
+// document.write("remove elements " + first , second + "<br>");
+// document.write(arr);
+
+// Q14      LIFO
+// let arr = [];
+// arr.push("A");
+// arr.push("B");
+// arr.push("C");
+// document.write(arr + "<br>");
+// let first = arr.pop();
+// let second = arr.pop();
+
+// document.write("remove elements " + first , second + "<br>");
+// document.write(arr);
+
+
+
+
+
+
 
 
 
