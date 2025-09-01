@@ -125,18 +125,15 @@
 // document.write("remove elements " + first , second + "<br>");
 // document.write(arr);
 
+// Q15
+// var arr = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// document.write("<select>");
+// for (var i = 0; i < arr.length; i++) {
+//   document.write("<option>" + arr[i] + "</option>");
+// }
+
+// document.write("</select>");
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+// ______________________________________________COMPLETE_____________________________________________________
