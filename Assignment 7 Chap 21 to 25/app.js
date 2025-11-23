@@ -112,7 +112,7 @@
 //         break
 //     }
 
-        
+
 
 // }
 
@@ -173,7 +173,7 @@
 
 // if (user.charCodeAt(0)=== (number >= 48 && nmber <= 57)){
 //     alert("It should not start with a number");
-    
+
 // }
 
 
@@ -188,14 +188,47 @@
 
 // var university = "University of Karachi";
 // var output = university.split("");
-
-// for(i=0; i<university.length; i++){
-//    let by = university[i] + "\n";
-
-// console.log(by);
+// console.log(output);
 
 
+// for (i = 0; i < university.length; i++) {
+//     let by = university[i] + "\n";
 
+//     console.log(by);
+
+// }
+
+
+
+
+// Q17
+
+// let userInput = prompt("enter your username");
+// document.writeln("user input: "+userInput+ "<br>");
+// document.writeln("last character of input: " + userInput.charAt(userInput.length-1));
+
+
+// Q18
+
+
+// const str = " the the the quick brown fox jumps over  lazy dog";
+
+// let output = str.toLowerCase().split(" ");
+// let count = 0;
+// let found = false;
+
+// for (i = 0; i < output.length; i++) {
+//    if (output[i] == "the") {
+//       count++;
+//       found = true;
+//    }
+
+// }
+
+// if (found) {
+//    console.log("There are " + count + " occurrence of word 'the'");
+
+// } else {console.log("Ooooppsss");
 // }
 
 
@@ -204,7 +237,18 @@
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
