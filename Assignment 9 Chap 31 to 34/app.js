@@ -138,6 +138,91 @@
 
 
 
+// practice
+
+// var rightNow = new Date();
+// var dateString = rightNow.toString();
+// console.log(dateString);
+
+// var rightNow = new Date();
+// var dateString = rightNow.getDay();
+// console.log(dateString);
+
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// var date = new Date();
+// var day = date.getDay();
+// var days = dayNames[day];
+// console.log(days);
+
+// var d = new Date();
+// var currentMonth = d.getMonth();
+// // console.log(currentMonth);
+// var dayOfMonth = d.getDate();
+// // console.log(dayOfMonth);
+// var currYr = d.getFullYear()
+// // console.log(currYr);
+// var currentHrs = d.getHours();
+// console.log(currentHrs);
+// var currMins = d.getMinutes();
+// console.log(currMins);
+// var currSecs = d.getSeconds();
+// console.log(currSecs);
+// var currMills = d.getMilliseconds();
+// console.log(currMills);
+// var millsSince = d.getTime();
+// console.log(millsSince);
+
+//  var today = new Date();
+//  var doomsday = new Date("June 30, 2035");
+//  console.log(doomsday);
+//  var msToday = today.getTime();
+//  console.log(msToday);
+ 
+// var msDoomsday = doomsday.getTime();
+// console.log(msDoomsday);
+// var msDiff = msDoomsday - msToday;
+// console.log(msDiff);
+// var dDiff = msDiff / (1000 * 60 * 60 * 24);
+// dDiff = Math.floor(dDiff);
+// console.log(dDiff);
+
+//  var msDiff = new Date("June 30, 2035").getTime() - new Date().getTime();
+// var daysTillDoom = Math.floor(msDiff / (1000 * 60 * 60 * 24));
+// console.log(daysTillDoom);
+
+// var d = new Date("July 21, 1983 13:25:00");
+// console.log(d);
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
