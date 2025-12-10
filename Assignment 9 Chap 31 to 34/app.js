@@ -55,9 +55,15 @@
 // }
 
 // Q6
+// var dt = new Date();
+// console.log(dt);
 
-// var time = new Date().getTime() / (1000*60);
-// console.log(time);
+// var ms = dt.getTime()
+// console.log(ms);
+
+// var mn = ms/(1000*60)
+// console.log(Math.floor(mn));
+
 
 // ==========================================================================/////////////
 
@@ -73,7 +79,7 @@
 
 // Q8
 
-// var laterDate = new Date(2020, 11, 31);
+// var laterDate = new Date("Dec 31, 2020 21:12:44");
 // console.log(laterDate);
 
 
@@ -95,13 +101,21 @@
 // let daysPassed = Math.floor(differenceInMs / (1000 * 60 * 60 * 24));
 
 // // Show the result
-// alert("Number of days since 1st Ramadan (June 18, 2015): " + daysPassed);
+// console.log("Number of days since 1st Ramadan (June 18, 2015): " + daysPassed);
 
 // ========================================================================================================//
 
 
 
 // Q10
+
+// var dt1 = new Date("Dec 05, 2015 22:50:18");
+// var dt2 = new Date("Jan 01, 2015 ");
+// var op = dt1 - dt2;
+// var op2 = op / (1000*60);
+// console.log(Math.floor(op2));
+
+
 
 // ========================================================================================================//
 
@@ -115,10 +129,25 @@
 // console.log(hour + " hour ago, it was " + date);
 
 
+// var date = new Date();
+// console.log(date);
+// date.setHours(date.getHours()-1);
+// console.log(date);
+
+
+
+
+
+//  date.setHours(23);
+// console.log(date);
+
+
 // Q12
 
 
 // var date = new Date();
+// console.log(date);
+
 // var year = date.getFullYear();
 // date.setFullYear( year - 100);
 // console.log(date);
@@ -131,6 +160,21 @@
 // console.log("your Birth year is " + (year - user));
 
 // Q14
+// var NOU = 410;
+// var PerUnit = 16;
+// var netAMount = NOU * PerUnit;
+// var LPS = 350
+// var GrossAmount = netAMount + LPS
+
+
+// document.writeln("<h1><b>K-Electric Bill </b> </h1>")
+// document.writeln("Customer Name: <b> ABC Customer </b> <br>")
+// document.writeln("Month: <b> February </b><br>")
+// document.writeln(`Number of units: <b> ${NOU}  </b><br>`)
+// document.writeln(`Charges per unit: <b>  ${PerUnit} </b><br>`)
+// document.writeln(`Net Amount Payaable (within Due Date): <b> ${netAMount}  </b><br>`)
+// document.writeln(`Late payment surcharge: <b> ${LPS}  </b><br>`)
+// document.writeln(`Gross Amount pPayable (after Due Date): <b>  ${GrossAmount} </b><br>`)
 
 
 
@@ -192,6 +236,11 @@
 
 // var d = new Date("July 21, 1983 13:25:00");
 // console.log(d);
+
+// var d = new Date();
+// d.setFullYear(2001);
+// console.log(d);
+
 
 
 
