@@ -1,262 +1,200 @@
 // Q1
-//  var date = new Date();
-//  console.log(date);
 
-//  Q2
-// var months = [
-//   "JANUARY",
-//   "FEBRURY",
-//   "MARCH",
-//   "APRIL",
-//   "MAY",
-//   "JUN",
-//   "JULY",
-//   "AUGUST",
-//   "SEPTEMBER",
-//   "OCTOBER",
-//   "NOVEMBER",
-//   "DECEMBER",
-// ];
-// var date = new Date();
-// var month = date.getMonth();
-// var currentMonth = months[month];
-// alert(currentMonth);
+// function power(a, b) {
+//     let result = 1;
+//     for (i = 0; i < b; i++) {
+//         result *= a;
+//     }
+//     return result;
+// }
+
+// console.log(power(2, 3));
+
+
+// Q2
+
+// function leapyear(year) {
+//     if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)){
+//         return true
+//     }else{
+//         return false
+//     }
+
+// }
+
+// let year = +prompt("Enter to check the year is leap or not");
+
+// if(leapyear(year)){
+//     console.log(year+ " is leap");
+
+// }else{
+//     console.log(year+ " is not leap");
+
+// }
+
+
+// function leapyear(year) {
+//     if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+//         console.log(year + " is leap");
+
+//     } else {
+//         console.log(year + " is not leap");
+
+//     }
+
+// }
+
+// let year = +prompt("Enter to check the year is leap or not");
+// leapyear(year)
+
+
+
 
 // Q3
-// var days=["SUN","MON", "TUE","WED", "THU", "FRI", "SAT"];
-// var date = new Date();
-// var day = date.getDay();
-// var currentDay = days[day];
-// alert("Today is " + currentDay);
+
+// function  AOT(a,b,c){
+//     let S= ( a + b + c ) / 2;
+//     let area = Math.sqrt(S*(S - a)*(S - b)*(S - c));
+//     return area;
+// }
+
+// console.log(AOT(10,13,14).toFixed());
+
+
+
+// function getSemiPerimeter(a, b, c) {
+//     return (a + b + c) / 2;
+// }
+
+// function triangleArea(a, b, c) {
+//     let S = getSemiPerimeter(a, b, c);
+//     let area = Math.sqrt(S * (S - a) * (S - b) * (S - c));
+//     return area;
+// }
+
+// let a = 3;
+// let b = 4;
+// let c = 5;
+
+// console.log("Area of triangle:", triangleArea(a, b, c));
+
+
 
 // Q4
 
-// var days=["SUN","MON", "TUE","WED", "THU", "FRI", "SAT"];
-// var date = new Date();
-// var day = date.getDay();
-// if(days === 0 && days === 6){
-//     alert("its fun day")
-// }else{
-//     alert("its study day")
+// function avg(m1, m2, m3) {
+//     return (m1 + m2 + m3) / 3
 // }
 
-// console.log(days[0] +" "+ days[6]);
+// function percentage(m1, m2, m3) {
+
+//     let total = m1 + m2 + m3;
+//     let percen = (total / 300) * 100;
+//     return percen;
+
+// }
+
+// function mainfunc(m1, m2, m3) {
+
+//     let ag = avg(m1, m2, m3);
+//     let per = percentage(m1, m2, m3);
+
+//     console.log("Average Marks " + ag);
+//     console.log("Percentage " + per);
+
+
+// }
+
+
+// mainfunc(80,70,60);
+
+
+
 
 // Q5
 
-// var fulldate = new Date();
-// var date = fulldate.getDate();
-// if(date < 16){
-//     console.log("First fifteen days of the month");
 
-// }else if(date >=16 ){
-//     console.log("Last days of the month");
+// function characterFind(str, val) {
+//     let result=0;
+//     for (i = 0; i < str.length; i++) {
+//         if (str[i] === val) {
+//             result++
 
+//         }
+//     }
+
+//     return result
 // }
 
+// console.log(characterFind("Atrubaaaaa", "a"));
+
+
+// function characterFind(str, val) {
+//     let result=0;
+//     let word;
+
+//     let s = str.split(" ");    
+//     for (i = 0; i < s.length; i++) {
+//         if (s[i] === val) {
+//             result++
+//             console.log(word = s[i]);
+
+
+//         }
+//     }
+
+//     return result
+// }
+
+// console.log(characterFind("My name is atruba", "My"));
+
+
 // Q6
-// var dt = new Date();
-// console.log(dt);
 
-// var ms = dt.getTime()
-// console.log(ms);
+// function vowelsRemover(sentence){
+//     let result ="";
+//     let sen = sentence.toLowerCase();
+//     let vow = "aeiou";
+//     for(i=0; i<sen.length; i++){
+//         if(!vow.includes(sen[i])){
+//             result+=sen[i];
+//         }
+//     }
 
-// var mn = ms/(1000*60)
-// console.log(Math.floor(mn));
+//     return result
+// }
 
 
-// ==========================================================================/////////////
+// console.log(vowelsRemover("my name is atruba"));
+
 
 // Q7
 
-// var currenthour = new Date().getHours();
-// console.log(currenthour);
-// if (currenthour < 12) {
-//   console.log("Its AM");
-// } else {
-//   console.log("Its PM");
+// function sameVowelCount(sen) {
+//     let count=0;
+//     let sent = sen.toLowerCase();
+
+//     for (i = 0; i < sent.length - 1; i++) {
+
+//         switch (sent[i]) {
+//             case "a": case "e": case "i": case "o": case "u":
+//                 switch (sent[i+1]) {
+//                     case "a": case "e": case "i": case "o": case "u":
+//                         count++
+
+//                 }
+//         }
+
+
+//     }
+
+//     return count;
 // }
 
+
+// console.log(sameVowelCount("Pleases read this application and give me gratuity"));
+
 // Q8
-
-// var laterDate = new Date("Dec 31, 2020 21:12:44");
-// console.log(laterDate);
-
-
-// Q9
-
-// var ramadanStart = new Date("June 18, 2015");
-
-// var today = new Date();
-
-// var differenceInMs = today - ramadanStart;
-// console.log(ramadanStart);
-
-// console.log(today);
-
-// console.log(differenceInMs);
-
-
-// // Convert milliseconds to days
-// let daysPassed = Math.floor(differenceInMs / (1000 * 60 * 60 * 24));
-
-// // Show the result
-// console.log("Number of days since 1st Ramadan (June 18, 2015): " + daysPassed);
-
-// ========================================================================================================//
-
-
-
-// Q10
-
-// var dt1 = new Date("Dec 05, 2015 22:50:18");
-// var dt2 = new Date("Jan 01, 2015 ");
-// var op = dt1 - dt2;
-// var op2 = op / (1000*60);
-// console.log(Math.floor(op2));
-
-
-
-// ========================================================================================================//
-
-
-// Q11
-
-// var date = new Date();
-// console.log( "Crrent date: "+date);
-
-// var hour = date.getHours();
-// console.log(hour + " hour ago, it was " + date);
-
-
-// var date = new Date();
-// console.log(date);
-// date.setHours(date.getHours()-1);
-// console.log(date);
-
-
-
-
-
-//  date.setHours(23);
-// console.log(date);
-
-
-// Q12
-
-
-// var date = new Date();
-// console.log(date);
-
-// var year = date.getFullYear();
-// date.setFullYear( year - 100);
-// console.log(date);
-
-// Q13
-
-// var year = new Date().getFullYear();
-// console.log(year);
-// var user = +prompt("what's your age");
-// console.log("your Birth year is " + (year - user));
-
-// Q14
-// var NOU = 410;
-// var PerUnit = 16;
-// var netAMount = NOU * PerUnit;
-// var LPS = 350
-// var GrossAmount = netAMount + LPS
-
-
-// document.writeln("<h1><b>K-Electric Bill </b> </h1>")
-// document.writeln("Customer Name: <b> ABC Customer </b> <br>")
-// document.writeln("Month: <b> February </b><br>")
-// document.writeln(`Number of units: <b> ${NOU}  </b><br>`)
-// document.writeln(`Charges per unit: <b>  ${PerUnit} </b><br>`)
-// document.writeln(`Net Amount Payaable (within Due Date): <b> ${netAMount}  </b><br>`)
-// document.writeln(`Late payment surcharge: <b> ${LPS}  </b><br>`)
-// document.writeln(`Gross Amount pPayable (after Due Date): <b>  ${GrossAmount} </b><br>`)
-
-
-
-
-
-
-
-// practice
-
-// var rightNow = new Date();
-// var dateString = rightNow.toString();
-// console.log(dateString);
-
-// var rightNow = new Date();
-// var dateString = rightNow.getDay();
-// console.log(dateString);
-
-// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-// var date = new Date();
-// var day = date.getDay();
-// var days = dayNames[day];
-// console.log(days);
-
-// var d = new Date();
-// var currentMonth = d.getMonth();
-// // console.log(currentMonth);
-// var dayOfMonth = d.getDate();
-// // console.log(dayOfMonth);
-// var currYr = d.getFullYear()
-// // console.log(currYr);
-// var currentHrs = d.getHours();
-// console.log(currentHrs);
-// var currMins = d.getMinutes();
-// console.log(currMins);
-// var currSecs = d.getSeconds();
-// console.log(currSecs);
-// var currMills = d.getMilliseconds();
-// console.log(currMills);
-// var millsSince = d.getTime();
-// console.log(millsSince);
-
-//  var today = new Date();
-//  var doomsday = new Date("June 30, 2035");
-//  console.log(doomsday);
-//  var msToday = today.getTime();
-//  console.log(msToday);
- 
-// var msDoomsday = doomsday.getTime();
-// console.log(msDoomsday);
-// var msDiff = msDoomsday - msToday;
-// console.log(msDiff);
-// var dDiff = msDiff / (1000 * 60 * 60 * 24);
-// dDiff = Math.floor(dDiff);
-// console.log(dDiff);
-
-//  var msDiff = new Date("June 30, 2035").getTime() - new Date().getTime();
-// var daysTillDoom = Math.floor(msDiff / (1000 * 60 * 60 * 24));
-// console.log(daysTillDoom);
-
-// var d = new Date("July 21, 1983 13:25:00");
-// console.log(d);
-
-// var d = new Date();
-// d.setFullYear(2001);
-// console.log(d);
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
 
 
 
