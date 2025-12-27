@@ -197,6 +197,107 @@
 // Q8
 
 
+// // Function to convert kilometers to meters
+// function toMeters(km) {
+//     return km * 1000;
+// }
+
+// // Function to convert kilometers to feet
+// function toFeet(km) {
+//     return km * 3280.84;
+// }
+
+// // Function to convert kilometers to inches
+// function toInches(km) {
+//     return km * 39370.1;
+// }
+
+// // Function to convert kilometers to centimeters
+// function toCentimeters(km) {
+//     return km * 100000;
+// }
+
+// // Input distance in kilometers
+// let km = +prompt("Enter distance between two cities (in kilometers):");
+
+// // Print results
+// console.log("Distance in meters: " + toMeters(km));
+// console.log("Distance in feet: " + toFeet(km));
+// console.log("Distance in inches: " + toInches(km));
+// console.log("Distance in centimeters: " + toCentimeters(km));
+
+
+// Q9
+
+// function overTimePay(hours) {
+//     let overtime = 0;
+//     if (hours >= 40) {
+
+//         hours = hours - 40;
+//         overtime = hours * 12;
+
+//     }
+
+//     return overtime;
+// }
+
+// console.log(overTimePay(45));
+
+
+// Q10
+
+// let hundred = +prompt("Enter your withdraw amount");
+// let amount = hundred * 100;
+
+// let note100 = Math.floor(amount / 100);
+// amount = amount % 100;
+// let note50 = Math.floor(amount / 50);
+// amount = amount % 50;
+// let note10 = Math.floor(amount / 10);
+
+
+// console.log(note100 + "hundred notes");
+// console.log(note50 + "Fifty notes");
+// console.log(note10 + "ten notes");
+
+
+// Input amount in hundreds
+// let hundreds = parseInt(prompt("Enter amount (in hundreds):"));
+
+// Total amount in rupees
+// let amount =  +prompt("Enter amount (in hundreds):");
+
+// // Calculate number of notes
+// let notes100 = Math.floor(amount / 100);
+// amount = amount % 100;
+
+// let notes50 = Math.floor(amount / 50);
+// amount = amount % 50;
+
+// let notes10 = Math.floor(amount / 10);
+
+
+
+// // Display result
+// console.log("100 rupees notes: " + notes100);
+// console.log("50 rupees notes: " + notes50);
+// console.log("10 rupees notes: " + notes10);
+// console.log("Remaining Amount: " + (amount = amount % 10));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
