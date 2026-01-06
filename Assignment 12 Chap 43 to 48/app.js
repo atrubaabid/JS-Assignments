@@ -7,17 +7,17 @@
 
 
 
-var counter = 0;
+// var counter = 0;
 
-function increase() {
-  counter++;
-  document.getElementById("counterValue").innerHTML = counter;
-}
+// function increase() {
+//   counter++;
+//   document.getElementById("counterValue").innerHTML = counter;
+// }
 
-function decrease() {
-  counter--;
-  document.getElementById("counterValue").innerHTML = counter;
-}
+// function decrease() {
+//   counter--;
+//   document.getElementById("counterValue").innerHTML = counter;
+// }
 
 
 

@@ -4,11 +4,25 @@
 //     let result = 1;
 //     for (i = 0; i < b; i++) {
 //         result *= a;
+//         // console.log(i);
+        
 //     }
 //     return result;
 // }
 
 // console.log(power(2, 3));
+
+
+
+
+// function pow(a, b) {
+//     let result = a ** b;
+//     return result;
+// }
+
+// console.log(pow(2, 3));
+
+
 
 
 // Q2
@@ -50,6 +64,9 @@
 
 
 
+
+
+
 // Q3
 
 // function  AOT(a,b,c){
@@ -58,7 +75,7 @@
 //     return area;
 // }
 
-// console.log(AOT(10,13,14).toFixed());
+// console.log(AOT(10,13,14));
 
 
 
@@ -133,7 +150,7 @@
 //     let result=0;
 //     let word;
 
-//     let s = str.split(" ");    
+//     let s = str.split(" ");
 //     for (i = 0; i < s.length; i++) {
 //         if (s[i] === val) {
 //             result++
@@ -156,7 +173,7 @@
 //     let sen = sentence.toLowerCase();
 //     let vow = "aeiou";
 //     for(i=0; i<sen.length; i++){
-//         if(!vow.includes(sen[i])){
+//         if(vow.includes(sen[i])){
 //             result+=sen[i];
 //         }
 //     }
@@ -178,6 +195,8 @@
 
 //         switch (sent[i]) {
 //             case "a": case "e": case "i": case "o": case "u":
+//                 console.log(sent[i]);
+                
 //                 switch (sent[i+1]) {
 //                     case "a": case "e": case "i": case "o": case "u":
 //                         count++
@@ -246,26 +265,9 @@
 
 // Q10
 
-// let hundred = +prompt("Enter your withdraw amount");
-// let amount = hundred * 100;
 
-// let note100 = Math.floor(amount / 100);
-// amount = amount % 100;
-// let note50 = Math.floor(amount / 50);
-// amount = amount % 50;
-// let note10 = Math.floor(amount / 10);
-
-
-// console.log(note100 + "hundred notes");
-// console.log(note50 + "Fifty notes");
-// console.log(note10 + "ten notes");
-
-
-// Input amount in hundreds
-// let hundreds = parseInt(prompt("Enter amount (in hundreds):"));
-
-// Total amount in rupees
-// let amount =  +prompt("Enter amount (in hundreds):");
+// // Total amount in rupees
+// let amount =  +prompt("Enter amount (in hundreds):"); 766
 
 // // Calculate number of notes
 // let notes100 = Math.floor(amount / 100);
@@ -275,6 +277,8 @@
 // amount = amount % 50;
 
 // let notes10 = Math.floor(amount / 10);
+// // amount = amount % 10;
+
 
 
 
